@@ -70,7 +70,7 @@ setup(
     author_email='zimbler@gmail.com',
     description='Background sitemap generation for Django',
     install_requires=[
-        'Django>=3.2,<5.1',
+        'Django>=3.2,<=5.1',
     ],
     classifiers=[
         'Development Status :: 4 - Beta',
@@ -84,6 +84,7 @@ setup(
         'Programming Language :: Python :: 3.10',
         'Programming Language :: Python :: 3.11',
         'Programming Language :: Python :: 3.12',
+        'Programming Language :: Python :: 3.13',
         ('Topic :: Internet :: WWW/HTTP :: Dynamic Content :: '
          'Content Management System'),
     ]
